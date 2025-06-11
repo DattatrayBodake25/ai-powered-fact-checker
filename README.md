@@ -14,7 +14,7 @@ This is a demo system that verifies news claims using a **RAG (Retrieval-Augment
 
 ## 📂 Project Structure
 
-.
+```
 ├── app.py # Streamlit UI
 ├── data/ # Contains facts CSV and index files
 ├── src/
@@ -25,7 +25,7 @@ This is a demo system that verifies news claims using a **RAG (Retrieval-Augment
 ├── utils.py
 ├── .env # Your Google API Key (not committed)
 └── requirements.txt
-
+```
 ---
 
 ## ⚙️ Setup Instructions
