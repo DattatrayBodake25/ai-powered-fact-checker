@@ -51,24 +51,18 @@ GOOGLE_API_KEY=your_gemini_api_key_here
 streamlit run app.py
 ```
 
-📝 On first run, the app will automatically build a FAISS index from data/verified_facts.csv.
+## 📝 On first run, the app will automatically build a FAISS index from data/verified_facts.csv.
 
-🌐 Streamlit Cloud Deployment Notes
-Ensure data/verified_facts.csv is present in the repo.
+## 🌐 Streamlit Cloud Deployment Notes
+### Ensure data/verified_facts.csv is present in the repo.
 
-The app rebuilds the index on deployment if missing.
+### The app rebuilds the index on deployment if missing.
 
-📌 Tech Stack
-LLM: Google Gemini Pro / Flash
+## 📌 Tech Stack
+### LLM: Google Gemini Pro / Flash
 
-Embeddings: SentenceTransformers (all-MiniLM-L6-v2)
+### Embeddings: SentenceTransformers (all-MiniLM-L6-v2)
 
-Vector DB: FAISS
+### Vector DB: FAISS
 
-Frontend: Streamlit
-
-📄 License
-This project is for educational and demonstration purposes only.
----
-
-Let me know if you'd like a version with demo screenshots or badges for GitHub Actions, Hugging Face, or Streamlit 
+### Frontend: Streamlit
