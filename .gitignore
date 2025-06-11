@@ -1,0 +1,25 @@
+# Ignore Python virtual environments
+venv/
+.env
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit temporary files
+.streamlit/
+
+# FAISS & pickle index files
+*.pkl
+*.idx
+
+# VSCode/IDE settings
+.vscode/
+.idea/
