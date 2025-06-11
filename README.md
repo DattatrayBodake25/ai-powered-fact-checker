@@ -59,7 +59,7 @@ streamlit run app.py
 ### The app rebuilds the index on deployment if missing.
 
 ## 📌 Tech Stack
-### LLM: Google Gemini Pro / Flash
+### LLM: Google Gemini-2.0-Flash
 
 ### Embeddings: SentenceTransformers (all-MiniLM-L6-v2)
 
