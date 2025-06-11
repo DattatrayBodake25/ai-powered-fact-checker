@@ -34,23 +34,23 @@ This is a demo system that verifies news claims using a **RAG (Retrieval-Augment
    ```bash
    git clone https://github.com/DattatrayBodake25/ai-powered-fact-checker.git
    cd ai-powered-fact-checker
-Install dependencies
 
-bash
-Copy
-Edit
+## Install dependencies
+```
 pip install -r requirements.txt
-Set up environment variables
+```
+## Set up environment variables
 
-Create a .env file:
-
-ini
-
+### Create a .env file:
+```
 GOOGLE_API_KEY=your_gemini_api_key_here
-Run the app
+```
 
-
+## Run the app
+```
 streamlit run app.py
+```
+
 📝 On first run, the app will automatically build a FAISS index from data/verified_facts.csv.
 
 🌐 Streamlit Cloud Deployment Notes
